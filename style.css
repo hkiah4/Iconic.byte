@@ -3,16 +3,16 @@
   box-sizing: border-box;
 }
 body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+  margin: 0; padding: 0; height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  background-image: url('https://images.unsplash.com/photo-1549921296-3a5d3a7d6105?auto=format&fit=crop&w=1920&q=80');
+  color: White;
+  background-
+
+image:url('https://images.unsplash.com/photo-1549921296-3a5d3a7d6105?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+background-color: bLACK;
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
@@ -24,11 +24,11 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: center;
+justify-content: center;
   font-family: 'Orbitron', sans-serif;
   font-size: 5vw;
   font-weight: 100;
-  color: rgba(54, 39, 96, 0.99);
+  color:rgba(54, 39, 96, 0.99);
   user-select: none;
   pointer-events: none;
   white-space: nowrap;
@@ -41,13 +41,13 @@ body, html {
 .content-container {
   position: relative;
   z-index: 90;
-  background-color: rgba(86, 14, 16, 0.98);
+  background-color:rrgba(86, 14, 16, 0.98);
   backdrop-filter: blur(5px);
   max-width: 1100px;
   margin: 30px auto 60px auto;
   border-radius: 25px;
   padding: 50px 80px;
-  box-shadow: 0 10px 30px rgba(10, 10, 10, 0.66);
+  box-shadow: 0 10px 30px rgba(10,10,10,0.66);
 }
 
 header {
@@ -79,8 +79,8 @@ header p {
 
 .portfolio-button {
   background: none;
-  border: 2.5px solid #2c003e;
-  color: white;
+  border: 2.5px solid #2c003e ;
+  color: WHITE ;
   font-size: 1.15rem;
   padding: 14px 32px;
   border-radius: 8px;
@@ -112,12 +112,12 @@ header p {
   border-radius: 14px;
   width: 280px;
   text-align: center;
-  box-shadow: 0 8px 20px rgba(10, 10, 0, 0.55);
+  box-shadow: 0 8px 20px rgba(10,10,0,0.55);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 30px rgba(255, 111, 97, 0.6);
+  box-shadow: 0 12px 30px rgba(255,111,97,0.6);
 }
 .card h2 {
   margin-bottom: 12px;
@@ -147,10 +147,8 @@ footer {
 .modal {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
   background: rgba(0, 0, 0, 0.9);
   justify-content: center;
   align-items: center;
@@ -163,7 +161,7 @@ footer {
   max-width: 850px;
   background: #222;
   border-radius: 12px;
-  box-shadow: 0 0 25px rgba(255, 111, 97, 0.9);
+  box-shadow: 0 0 25px rgba(255,111,97,0.9);
 }
 .modal-content iframe {
   width: 100%;
@@ -203,6 +201,6 @@ footer {
     font-size: 1rem;
   }
   header h2 {
-    font-size: 2rem;
+    font-size: 8rem;
   }
 }
